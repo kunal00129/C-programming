@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int a;
+    scanf("%d",&a);
+    if(a==1,a==7,a==8)
+    {
+        printf("31");
+    }
+    else if(a==2)
+    {
+        printf("28");
+    }
+    else if((a%2==0)&&(a<12))
+    {
+        printf("30");
+    }
+    else if((a%2!=2)&&(a<12))
+    {
+        printf("31");
+    }
+    else if(a>12)
+    {
+        printf("Wrong month value.");
+    }
+}
