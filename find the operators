@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+    int A,B,R;
+    scanf("%d%d%d",&A,&B,&R);
+    if (A+B==R)
+    {
+        printf("+");
+    }
+    
+    if (A-B==R)
+    {
+        printf("-");
+    }
+    
+    if (A*B==R)
+    {
+        printf("*");
+    }
+    
+    if (A/B==R)
+    {
+        printf("/");
+    }
+    
+    if (A%B==R)
+    {
+        printf("%%");
+    }
+      
+    return 0;
+}
