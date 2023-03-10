@@ -1,0 +1,53 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() 
+{
+    float A;float c=0;
+    float P1,P2,P3;
+    scanf("%f\n%f\n%f\n",&P1,&P2,&P3);
+    scanf("%f",&A);
+   
+    if(P1<A)
+    {
+        c++;
+    }
+    if(P2<A)
+    {
+        c++;
+    }
+    if(P3<A)
+    {
+        c++;
+    }
+     if(P1<A)
+     {
+         printf("%.3f\n",1.000/c);
+     }
+    else
+    {
+        printf("0.000\n");
+    }
+    if (P2<A)
+    {
+        printf("%.3f\n",1.000/c);
+    }
+    else
+    {
+        printf("0.000\n");
+    }
+    if (P3<A)
+     {
+         printf("%.3f\n",1.000/c);
+     }
+    else
+    {
+        printf("0.000\n");
+    }
+    return 0;
+}
