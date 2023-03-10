@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+    int T;
+    float A,B,C;
+    scanf("%d",&T);
+    while (T--)
+    {
+        scanf("%f%f%f",&A,&B,&C);
+        if(A+B+C==180)
+        {
+            printf("YES\n");
+        }
+        else
+        {
+            printf("NO\n");
+            
+        }
+    }
+
+    return 0;
+}
